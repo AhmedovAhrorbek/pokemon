@@ -1,0 +1,170 @@
+.pokemon {
+    background-color: yellow;
+}
+
+.site-logo {
+    padding-top: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.site-logo::after {
+    width: 50px;
+    height: 50px;
+    content: url('../../images/heart.png');
+    position: absolute;
+    top: 50px;
+    right: 201px;
+}
+
+.site-list {
+    width: 1145px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-list__item {
+    list-style-type: none;
+    text-decoration: none;
+    position: relative;
+}
+
+.site-list__item:nth-child(1)::after {
+    width: 24px;
+    height: 24px;
+    content: url('../../images/chevron-down.png');
+    position: absolute;
+    top: 5px;
+    right: 81px;
+}
+
+.site-list__item:nth-child(2) a {
+    padding-left: 40px;
+}
+
+.site-list__item:nth-child(2)::after {
+    width: 24px;
+    height: 24px;
+    content: url('../../images/search.png');
+    position: absolute;
+    top: 5px;
+    right: 18px;
+}
+
+.site-list__item:nth-child(3)::after {
+    width: 24px;
+    height: 24px;
+    content: url('../../images/chevron-down.png');
+    position: absolute;
+    top: 5px;
+    right: 81px;
+}
+
+.site-list__item a {
+    padding: 16px 110px 16px 72px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+}
+
+.site-cards {
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 200px;
+    margin-right: 37px;
+}
+
+.site-cards__card {
+    text-align: start;
+    list-style-type: none;
+    padding-top: 30px;
+padding-bottom: 37px;
+    width: 307px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+.site-cards__card:nth-child(5){
+    margin-top: 30px;
+}
+.site-cards__card:nth-child(6){
+    margin-top: 30px;
+}
+.site-cards__card:nth-child(7){
+    margin-top: 30px;
+}
+.site-cards__card:nth-child(8){
+    margin-top: 30px;
+}
+.site-cards__card hr {
+    width: 300px;
+    height: 2px;
+    background-color: #000;
+}
+
+.site-cards__card--title {
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 30px;
+    color: #000000;
+    position: relative;
+}
+.site-cards__card--title::after{
+    width: 30px;
+    height: 30px;
+    content: url('../../images/heart.png');
+    position: absolute;
+    top: 5px;
+    right: 40px;
+}
+
+.site-cards__card--text {
+    margin: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    color: #000000;
+}
+
+.site-cards__card--list {
+    list-style-type: none;
+    gap: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.site-cards__card--item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
